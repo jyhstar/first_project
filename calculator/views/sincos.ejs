@@ -1,0 +1,35 @@
+<%- include('layouts/header'); -%>
+
+<body>
+    <main>
+        <div id="title">Calculator</div>
+        <div>
+            <input type="text" id="inputBox" placeholder="0" readonly>            
+        </div>
+        <div id="line1"> 
+            <button class="number" value="sin" onclick="typing('sin')">sin</button>    
+            <button class="number" value="cos" onclick="typing('cos')">cos</button>    
+            <button class="number" value="C" onclick="typing('C')">C</button>      
+        </div>
+        <div id="line2">
+            <button class="number" value="7" onclick="typing('7')">7</button>    
+            <button class="number" value="8" onclick="typing('8')">8</button>    
+            <button class="number" value="9" onclick="typing('9')">9</button>      
+        </div>
+        <div id="line3">
+            <button class="number" value="4" onclick="typing('4')">4</button>    
+            <button class="number" value="5" onclick="typing('5')">5</button>    
+            <button class="number" value="6" onclick="typing('6')">6</button>      
+        </div>
+        <div id="line4">
+            <button class="number" value="1" onclick="typing('1')">1</button>    
+            <button class="number" value="2" onclick="typing('2')">2</button>    
+            <button class="number" value="3" onclick="typing('3')">3</button>      
+        </div>
+        <div id="line5">
+            <button class="number" value="del" onclick="typing('del')"><=</button>    
+            <button class="number" value="0" onclick="typing('0')">0</button>    
+            <button class="number" value="." onclick="typing('.')">.</button>      
+        </div>
+    </main>
+</body>
